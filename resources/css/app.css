@@ -1,0 +1,99 @@
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #545454;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8f8c8c;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+/* subject input */
+.subject-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 10px 0;
+}
+
+.view-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.view-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+}
+
+table > thead {
+    background: gray;
+    color: #fff;
+    height: 30px;
+}
+
+.subject_container {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.bg-danger {
+    background-color: red;
+    margin-left: 5px;
+}
+
+.error-inputs {
+    color: red;
+    padding-top: 5px;
+}
