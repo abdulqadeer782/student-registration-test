@@ -17,11 +17,6 @@ const EditStudent = ({ student, id, errors }) => {
         }
     }, [student])
 
-    useEffect(() => {
-        console.log('fffffff', subjects)
-    }, [subjects])
-
-
     const handleAddSubject = () => {
         setSubjects([...subjects, '']);
     };
